@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <i class="fa-solid fa-user fa-lg"></i>
+          <h5>Crudify</h5>
+        </div>
+        <div class="search-user">
+          <div class="search">
+            <i
+              class="fa-solid fa-magnifying-glass fa-lg"
+              style="color: #3b3a3a"
+            ></i>
+            <input type="text" id="searchInput" placeholder="search" />
+          </div>
+          <button id="newUser" class="new-user">Create User</button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container" id="container">
+      <div class="main-content">
+        <h1 class="main-heading">CRUD PROJECT</h1>
+        <select id="select" name="select" class="droplist">
+          <option>Sort</option>
+          <option value="firstName">firstname</option>
+          <option value="lastName">lastname</option>
+        </select>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Sr no</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Email</th>
+              <th>Phone</th> 
+              <th>DOB</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-row">
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    
+      <aside id="custom-modal" class="custom-modal">
+        <div class="modal-content">
+          <h2 id="modal-title">Create New User</h2>
+      
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" placeholder="firstname" />
+      
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" placeholder="lastname" />
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="email" />
+      
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" placeholder="phone" />
+      
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" placeholder="dob" />
+      
+          <div class="modal-actions">
+            <button id="submit-btn" class="submit-btn">Submit</button>
+            <button id="cancel-btn" class="cancel-btn">Cancel</button>
+          </div>
+        </div>
+      </aside>
+
+
+      <footer>
+        <div id="pagination" class="pagination">
+          <button><i class="fa-solid fa-chevron-left fa-xl" style="color: #293b5d;"></i></button>
+          <div id="pagin">
+            
+          </div>
+          <button><i class="fa-solid fa-chevron-right fa-xl" style="color: #293b5d;"></i></button>
+        </div>
+      </footer>
+      
+  </body>
+</html>
