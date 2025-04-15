@@ -65,7 +65,6 @@ header > nav {
 }
 
 .container {
-  margin: 1rem 0;
   padding: 1rem;
 }
 
@@ -92,7 +91,7 @@ header > nav {
   font-weight: 600;
 }
 
-.table {
+.container > .main-content > .table {
   border-collapse: collapse;
   margin-top: 0.5rem;
   text-align: center;
@@ -246,15 +245,101 @@ header > nav {
   background-color: #904242;
 }
 
-.pagination{
+.pagination-container{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
 }
 
-.pagination button{
+.currentpage-btn{
   width: 2rem;
   padding: 0.5rem;
+  background-color: #f4f5f6;
+  border-radius: 10px;
+  border: none;
+  outline: none;
   cursor: pointer;
 }
+
+.nav-btn{
+  width: 4rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: rgb(62, 123, 174);
+  color: white;
+}
+
+.nav-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .main-content {
+    width: 90%;
+  }
+
+  .table th, .table td {
+    padding: 0.6rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+  .search-user {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .main-content {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .table th, .table td {
+    font-size: 0.9rem;
+    padding: 0.4rem;
+  }
+  
+  .logo h5 {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo h5 {
+    font-size: 1.2rem;
+  }
+
+  .search-user {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .table th, .table td {
+    font-size: 0.8rem;
+  }
+
+  .edit-btn, .del-btn {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .nav-btn, .currentpage-btn {
+    font-size: 0.9rem;
+  }
+
+  .modal-content {
+    width: 100%;
+    max-width: 350px;
+  }
+}
+
+
