@@ -99,18 +99,18 @@ function loadTable(filteredUsersList) {
 
   const userTable = document.querySelector("table");
 
-  // Remove existing rows
+  
   const existingRows = document.querySelectorAll(".table-row");
   existingRows.forEach((row) => row.remove());
 
-  // Pagination logic
+  
   const startIndex = (currentPage - 1) * rowsPerPage;
   const paginatedUsers = users.slice(startIndex, startIndex + rowsPerPage);
 
   paginatedUsers.forEach((user, index) => {
     const tableRow = document.createElement("tr");
 
-    // Dynamically create and append each column
+    
     const tdSerial = document.createElement("td");
     tdSerial.innerHTML = startIndex + index + 1;
     tableRow.appendChild(tdSerial);
@@ -200,6 +200,7 @@ function resetForm() {
 
   document.getElementById("custom-modal").style.display = "none";
   document.getElementById("container").style.display = "block";
+  document.getElementById("pagination").style.display = "flex";
 }
 
 document.addEventListener("DOMContentLoaded", loadTable);
