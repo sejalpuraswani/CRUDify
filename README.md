@@ -49,10 +49,12 @@
 
 ---
 ## 🌐 Live Demo
-👉 ![https://crudify-tau.vercel.app/]Click here to try the live app
+👉 Live: [https://crudify-tau.vercel.app/]
 
 ---
 📬 Connect With Me
 Feel free to connect!
-🔗 ![https://www.linkedin.com/in/sejal-puraswani-87a340237/] LinkedIn
-📧 ![sejalpuraswani@gmail.com] Email
+🔗 LinkedIn: [https://www.linkedin.com/in/sejal-puraswani-87a340237/] 
+📧 Email: [sejalpuraswani@gmail.com] 
+
+🌟 If you like this project, don’t forget to star ⭐ the repository!
