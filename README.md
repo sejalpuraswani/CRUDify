@@ -13,7 +13,7 @@
 ✅ **Pagination**: Custom client-side pagination built from scratch   
 ✅ **Data Persistence**: Saves and loads user data using `localStorage`  
 ✅ **Responsive Design**: Built with Flexbox and media queries for mobile-friendliness  
-✅ **Pure JavaScript Logic**: Efficient DOM manipulation & modular functions  
+
 
 ---
 
@@ -23,8 +23,6 @@
 - Array Methods (`map()`, `filter()`, `sort()`, `slice()`)  
 - Event Listeners & Conditional Rendering  
 - `localStorage` API for persistent data  
-- Modular JavaScript Functions & Code Reusability  
-- Clean, Semantic HTML  
 - Responsive Layout with Flexbox & Media Queries  
 
 ---
@@ -45,7 +43,7 @@
    git clone https://github.com/sejalpuraswani/CRUDify.git
    cd crudify
 2. Open index.html in your browser 
-✅ That’s it! No setup required.
+- ✅ That’s it! No setup required.
 
 ---
 ## 🌐 Live Demo
@@ -53,8 +51,9 @@
 
 ---
 📬 Connect With Me
-Feel free to connect!
-🔗 LinkedIn: [https://www.linkedin.com/in/sejal-puraswani-87a340237/] 
-📧 Email: [sejalpuraswani@gmail.com] 
+- Feel free to connect!
+- 🔗 LinkedIn: [https://www.linkedin.com/in/sejal-puraswani-87a340237/] 
+- 📧 Email: [sejalpuraswani@gmail.com] 
 
+---
 🌟 If you like this project, don’t forget to star ⭐ the repository!
